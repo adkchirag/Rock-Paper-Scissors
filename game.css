@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    background-color: #1FAB89;
+    color: #0A2647
+}
+.game-heading{
+    font-size: 3rem;
+}
+#playername{
+    width: 20rem;
+    padding: 0.5rem;
+    border: 3px solid #0A2647;
+    background-color: #F9ED69;
+    color:#0A2647;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#playername:focus{
+    background-color: #9AD0C2;
+    border: 3px solid #0A2647;
+    outline: none;
+}
+#enternamebtn{
+    width: 7rem;
+    padding: 0.5rem 1rem;
+    background-color: #0A2647;
+    color: #F9ED69;
+    border: 3px solid #0A2647;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+} 
+#enternamebtn:active{
+    color: #FDFFBC;
+    background-color: #194b85;
+    border-color: #194b85;
+}
+.displaylabel{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+.rpsbtn{
+    background-color:#0A2647;
+    padding: 0.5rem 1rem;
+    border: 3px solid #0A2647;
+    color: #F9ED69;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.rpsbtn:active{
+    background-color:#F9ED69;
+    border-color:#113661;
+    color: #113661;
+}
+.selectOption{
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-top: 2rem;
+    margin-bottom: 2.25rem;
+    background-color: #EEF296;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 25px 0 #0A2647;
+    border-radius: 3px 25px;
+}
+#whowon{
+    font-weight: bold;
+}
